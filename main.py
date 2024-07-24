@@ -2,7 +2,7 @@ def main():
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
     word_count = count_words(text)
-    print("==============Beginning Book Report of frankenstein.txt==============")
+    print("==============Beginning of The Book Report of frankenstein.txt==============")
     print(f"There are {word_count} words in this book")
     char_count, chars = count_char(text)
     print(f"There are {char_count} characters in this book")
